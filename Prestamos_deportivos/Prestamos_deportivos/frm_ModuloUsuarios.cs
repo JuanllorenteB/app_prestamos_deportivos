@@ -16,5 +16,10 @@ namespace Prestamos_deportivos
         {
             InitializeComponent();
         }
+
+        private void materialTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

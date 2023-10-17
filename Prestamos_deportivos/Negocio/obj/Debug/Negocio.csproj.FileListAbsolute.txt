@@ -1,0 +1,2 @@
+C:\Users\AP-SE105-01\Documents\GitHub\app_prestamos_deportivos\Prestamos_deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\AP-SE105-01\Documents\GitHub\app_prestamos_deportivos\Prestamos_deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
