@@ -30,5 +30,10 @@ namespace Presentacion
             txt_cantidad.Clear();
             txt_descripcion.Clear();
         }
+
+        private void materialLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
