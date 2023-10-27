@@ -33,7 +33,15 @@ namespace Presentacion
 
         private void txt_codigo_KeyUp(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) { }
+            if (e.KeyCode == Keys.Enter)
+            {
+               cls_implementos objConsultar = new cls_implementos();
+                objConsultar.fnt_consultar(txt_codigo.Text);
+                txt_nombre.Text = objConsultar.getNombre();
+                txt_descripcion.Text = objConsultar.getDescripcion();
+                txt_cantidad.Text = Convert.ToString(objConsultar.getCantidad());
+                txt_valor.Text = Convert.ToString(objConsultar.getValor());
+            }
         }
     }
 }
