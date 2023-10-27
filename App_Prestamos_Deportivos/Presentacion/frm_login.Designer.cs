@@ -28,28 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_login));
             this.txt_usuario = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_contraseña = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.btn_cancelar = new MaterialSkin.Controls.MaterialButton();
+            this.btn_ingresar = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_usuario
             // 
             this.txt_usuario.AnimateReadOnly = false;
-            this.txt_usuario.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txt_usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_usuario.Depth = 0;
             this.txt_usuario.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txt_usuario.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.txt_usuario.Hint = "Usuario";
             this.txt_usuario.LeadingIcon = null;
-            this.txt_usuario.Location = new System.Drawing.Point(65, 34);
+            this.txt_usuario.Location = new System.Drawing.Point(343, 57);
             this.txt_usuario.MaxLength = 50;
             this.txt_usuario.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_usuario.Multiline = false;
             this.txt_usuario.Name = "txt_usuario";
-            this.txt_usuario.Size = new System.Drawing.Size(357, 50);
+            this.txt_usuario.Size = new System.Drawing.Size(402, 50);
             this.txt_usuario.TabIndex = 0;
             this.txt_usuario.Text = "";
             this.txt_usuario.TrailingIcon = null;
@@ -62,66 +63,82 @@
             this.txt_contraseña.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_contraseña.Hint = "Contraseña";
             this.txt_contraseña.LeadingIcon = null;
-            this.txt_contraseña.Location = new System.Drawing.Point(65, 101);
+            this.txt_contraseña.Location = new System.Drawing.Point(343, 113);
             this.txt_contraseña.MaxLength = 50;
             this.txt_contraseña.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_contraseña.Multiline = false;
             this.txt_contraseña.Name = "txt_contraseña";
-            this.txt_contraseña.Size = new System.Drawing.Size(357, 50);
+            this.txt_contraseña.Password = true;
+            this.txt_contraseña.Size = new System.Drawing.Size(402, 50);
             this.txt_contraseña.TabIndex = 1;
             this.txt_contraseña.Text = "";
             this.txt_contraseña.TrailingIcon = null;
             // 
-            // materialButton1
+            // btn_cancelar
             // 
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(232, 169);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(91, 36);
-            this.materialButton1.TabIndex = 2;
-            this.materialButton1.Text = "Ingresar";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
+            this.btn_cancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_cancelar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_cancelar.Depth = 0;
+            this.btn_cancelar.HighEmphasis = true;
+            this.btn_cancelar.Icon = null;
+            this.btn_cancelar.Location = new System.Drawing.Point(649, 167);
+            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_cancelar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_cancelar.Size = new System.Drawing.Size(96, 36);
+            this.btn_cancelar.TabIndex = 2;
+            this.btn_cancelar.Text = "cancelar";
+            this.btn_cancelar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_cancelar.UseAccentColor = false;
+            this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
-            // materialButton2
+            // btn_ingresar
             // 
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(331, 169);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton2.Size = new System.Drawing.Size(96, 36);
-            this.materialButton2.TabIndex = 3;
-            this.materialButton2.Text = "Cancelar";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton2.UseAccentColor = false;
-            this.materialButton2.UseVisualStyleBackColor = true;
-            this.materialButton2.Click += new System.EventHandler(this.materialButton2_Click);
+            this.btn_ingresar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_ingresar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_ingresar.Depth = 0;
+            this.btn_ingresar.HighEmphasis = true;
+            this.btn_ingresar.Icon = null;
+            this.btn_ingresar.Location = new System.Drawing.Point(550, 167);
+            this.btn_ingresar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_ingresar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_ingresar.Name = "btn_ingresar";
+            this.btn_ingresar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_ingresar.Size = new System.Drawing.Size(91, 36);
+            this.btn_ingresar.TabIndex = 3;
+            this.btn_ingresar.Text = "Ingresar";
+            this.btn_ingresar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_ingresar.UseAccentColor = false;
+            this.btn_ingresar.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(320, 249);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // frm_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 238);
-            this.Controls.Add(this.materialButton2);
-            this.Controls.Add(this.materialButton1);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(766, 292);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btn_ingresar);
+            this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.txt_usuario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_login";
-            this.Text = "frm_login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "LOGIN";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,7 +148,8 @@
 
         private MaterialSkin.Controls.MaterialTextBox txt_usuario;
         private MaterialSkin.Controls.MaterialTextBox txt_contraseña;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
-        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialButton btn_cancelar;
+        private MaterialSkin.Controls.MaterialButton btn_ingresar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

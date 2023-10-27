@@ -17,11 +17,16 @@ namespace Presentacion
             InitializeComponent();
         }
 
-        private void materialButton2_Click(object sender, EventArgs e)
+        private void btn_cancelar_Click(object sender, EventArgs e)
         {
-            txt_usuario.Clear();
             txt_contraseña.Clear();
+            txt_usuario.Clear();
             txt_usuario.Focus();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
