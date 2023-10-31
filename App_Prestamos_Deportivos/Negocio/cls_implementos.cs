@@ -16,7 +16,7 @@ namespace Negocio
         private int int_cantidad;
         cls_Conexion objconect = new cls_Conexion();
 
-        public void fnt_registrar(string codigo, string nombre,string descripcion,double precio,int cantidad)
+        public void fnt_registrar(string codigo, string nombre, string descripcion, double precio, int cantidad)
         {
             SqlCommand con = new SqlCommand("SP_AgregarImplemento", objconect.connection);
             con.CommandType = CommandType.StoredProcedure;
@@ -29,6 +29,20 @@ namespace Negocio
             con.ExecuteNonQuery();
             objconect.connection.Close();
             MessageBox.Show("Implemento registrado con éxito", "Registrar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public void fnt_actualizar(string codigo, string nombre, string descripcion, double precio, int cantidad)
+        {
+            SqlCommand con = new SqlCommand("SP_ActualizarImplemento", objconect.connection);
+            con.CommandType = CommandType.StoredProcedure;
+            con.Parameters.AddWithValue("@codigo", codigo);
+            con.Parameters.AddWithValue("@nombre", nombre);
+            con.Parameters.AddWithValue("@especificaciones", descripcion);
+            con.Parameters.AddWithValue("@cantidad", cantidad);
+            con.Parameters.AddWithValue("@valor", precio);
+            objconect.connection.Open();
+            con.ExecuteNonQuery();
+            objconect.connection.Close();
+            MessageBox.Show("Implemento Actualizado con éxito", "Registrar", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         public void fnt_consultar(string codigo)
         {

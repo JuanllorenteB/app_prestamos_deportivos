@@ -10,3 +10,9 @@ C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Pre
 C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.dll
 C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.pdb
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.dll
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.dll
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.pdb

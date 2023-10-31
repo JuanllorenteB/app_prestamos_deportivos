@@ -30,5 +30,18 @@ namespace Presentacion
             dtg_prestamo.DataSource = null;
             txt_id.Focus();
         }
+
+
+        private void txt_id_KeyUp(object sender, KeyEventArgs e)
+        {
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                cls_prestamos objConsultarP = new cls_prestamos();
+                objConsultarP.fnt_consultar(txt_id.Text);
+                txt_nombre.Text = objConsultarP.getNombre();
+
+            }
+        }
     }
 }
