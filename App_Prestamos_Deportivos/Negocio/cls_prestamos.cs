@@ -2,6 +2,8 @@
 using System;
 using System.Data.SqlClient;
 using System.Data;
+using System.Diagnostics.Contracts;
+using System.Windows.Forms;
 
 namespace Presentacion
 {
@@ -52,6 +54,29 @@ namespace Presentacion
 
             objconect.connection.Close();
 
+        }
+        
+        public void fnt_prestamo(string id, string user)
+        {
+            SqlCommand con = new SqlCommand("SP_GenerarPersonas", objconect.connection);
+            con.CommandType = CommandType.StoredProcedure;
+            con.Parameters.AddWithValue("@id", id);
+            con.Parameters.AddWithValue("@user", user);
+            objconect.connection.Open();
+            con.ExecuteNonQuery();
+            objconect.connection.Close();
+            MessageBox.Show("prestamo registrada con éxito", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public void fnt_det_prestamo(string cod_implemento, int cantidad)
+        {
+            SqlCommand con = new SqlCommand("SP_GenerarPersonas", objconect.connection);
+            con.CommandType = CommandType.StoredProcedure;
+            con.Parameters.AddWithValue("@cod_implemento", cod_implemento);
+            con.Parameters.AddWithValue("@cantidad", cantidad);
+            objconect.connection.Open();
+            con.ExecuteNonQuery();
+            objconect.connection.Close();
+            
         }
 
             public string getNombre() { return this.str_nombre; }
