@@ -43,3 +43,10 @@ C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\
 C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\MaterialSkin.dll
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Negocio.dll
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete

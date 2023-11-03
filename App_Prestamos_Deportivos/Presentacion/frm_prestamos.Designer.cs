@@ -101,6 +101,7 @@
             this.txt_codigo.TabIndex = 2;
             this.txt_codigo.Text = "";
             this.txt_codigo.TrailingIcon = null;
+            this.txt_codigo.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_codigo_KeyUp);
             // 
             // txt_descripcion
             // 
@@ -306,6 +307,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_prestamos";
             this.Text = "FORMULARIO PRESTAMOS";
+            this.Load += new System.EventHandler(this.frm_prestamos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -37,11 +37,28 @@ namespace Presentacion
 
             if (e.KeyCode == Keys.Enter)
             {
-                cls_prestamos objConsultarP = new cls_prestamos();
+                cls_prestamos objConsultarP = new Presentacion.cls_prestamos();
                 objConsultarP.fnt_consultar(txt_id.Text);
                 txt_nombre.Text = objConsultarP.getNombre();
 
             }
+        }
+
+        private void frm_prestamos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void txt_codigo_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.Enter) { }
+
+            cls_prestamos objConsultarP = new cls_prestamos();
+            objConsultarP.fnt_consultar(txt_id.Text);
+            txt_nombre.Text = objConsultarP.getNombre();
+
         }
     }
 }
