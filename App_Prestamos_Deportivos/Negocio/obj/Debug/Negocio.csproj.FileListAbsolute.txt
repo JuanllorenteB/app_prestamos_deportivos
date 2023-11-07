@@ -1,18 +1,8 @@
-C:\Users\yoyit\OneDrive\Documentos\GitHub\App_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.dll
-C:\Users\yoyit\OneDrive\Documentos\GitHub\App_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.pdb
-C:\Users\yoyit\OneDrive\Documentos\GitHub\App_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\yoyit\OneDrive\Documentos\GitHub\App_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\yoyit\OneDrive\Documentos\GitHub\App_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.dll
-C:\Users\yoyit\OneDrive\Documentos\GitHub\App_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.pdb
-C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.dll
-C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.pdb
-C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.dll
-C:\Users\AP-SE105-01\Pictures\Nueva carpeta (2)\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.pdb
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.dll
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.pdb
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.dll
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\deportivo\app_prestamos_deportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.pdb
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.dll
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.GenerateResource.cache
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.dll
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.pdb

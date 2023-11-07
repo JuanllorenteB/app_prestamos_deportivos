@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public class cls_Conexion
+    internal class cls_conexion
     {
-        public SqlConnection connection = new SqlConnection("Data Source=YOYITO\\SQLEXPRESS01;Initial Catalog=dbs_prestamos_deportivos;Integrated security = true");
+        public SqlConnection connection = new SqlConnection("Data Source=DESKTOP-6MUA0BA;Initial Catalog=dbs_prestamos_deportivos;Integrated Security=True");
     }
 }
+

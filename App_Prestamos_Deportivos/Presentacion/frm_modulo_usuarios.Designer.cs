@@ -2,10 +2,14 @@
 {
     partial class frm_modulo_usuarios
     {
-        
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-       
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
         /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
@@ -18,143 +22,149 @@
 
         #region Código generado por el Diseñador de Windows Forms
 
-      
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_modulo_usuarios));
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.txt_primernombre = new MaterialSkin.Controls.MaterialTextBox();
-            this.txt_segundonombre = new MaterialSkin.Controls.MaterialTextBox();
-            this.txt_primerapellido = new MaterialSkin.Controls.MaterialTextBox();
-            this.txt_identificacion = new MaterialSkin.Controls.MaterialTextBox();
-            this.txt_segundoapellido = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_papellido = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_snombre = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_pnombre = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_id = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_sapellido = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_contacto = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_correo = new MaterialSkin.Controls.MaterialTextBox();
-            this.txt_sexo = new MaterialSkin.Controls.MaterialComboBox();
+            this.cbx_sexo = new MaterialSkin.Controls.MaterialComboBox();
             this.tblsexoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dbs_prestamos_deportivosDataSet = new Presentacion.dbs_prestamos_deportivosDataSet();
+            this.tblsexoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dbs_prestamos_deportivosDataSet1 = new Presentacion.dbs_prestamos_deportivosDataSet1();
             this.txt_direccion = new MaterialSkin.Controls.MaterialTextBox();
             this.tbl_sexoTableAdapter = new Presentacion.dbs_prestamos_deportivosDataSetTableAdapters.tbl_sexoTableAdapter();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
-            this.materialListView1 = new MaterialSkin.Controls.MaterialListView();
+            this.btn_actualizar = new MaterialSkin.Controls.MaterialButton();
+            this.btn_guardar = new MaterialSkin.Controls.MaterialButton();
+            this.btn_cancelar = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tbl_sexoTableAdapter1 = new Presentacion.dbs_prestamos_deportivosDataSet1TableAdapters.tbl_sexoTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // materialLabel1
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(693, 28);
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel1.Location = new System.Drawing.Point(344, 9);
             this.materialLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(167, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(315, 41);
             this.materialLabel1.TabIndex = 0;
-            this.materialLabel1.Text = "Registro de Estudiantes";
-            this.materialLabel1.Click += new System.EventHandler(this.materialLabel1_Click);
+            this.materialLabel1.Text = "Registro de Usuarios";
             // 
-            // txt_primernombre
+            // txt_papellido
             // 
-            this.txt_primernombre.AnimateReadOnly = false;
-            this.txt_primernombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_primernombre.Depth = 0;
-            this.txt_primernombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txt_primernombre.Hint = "Primer Nombre";
-            this.txt_primernombre.LeadingIcon = null;
-            this.txt_primernombre.Location = new System.Drawing.Point(662, 59);
-            this.txt_primernombre.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_primernombre.MaxLength = 50;
-            this.txt_primernombre.MouseState = MaterialSkin.MouseState.OUT;
-            this.txt_primernombre.Multiline = false;
-            this.txt_primernombre.Name = "txt_primernombre";
-            this.txt_primernombre.Size = new System.Drawing.Size(220, 50);
-            this.txt_primernombre.TabIndex = 2;
-            this.txt_primernombre.Text = "";
-            this.txt_primernombre.TrailingIcon = null;
-            this.txt_primernombre.TextChanged += new System.EventHandler(this.materialTextBox2_TextChanged);
+            this.txt_papellido.AnimateReadOnly = false;
+            this.txt_papellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_papellido.Depth = 0;
+            this.txt_papellido.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_papellido.Hint = "Primer Apellido";
+            this.txt_papellido.LeadingIcon = null;
+            this.txt_papellido.Location = new System.Drawing.Point(481, 130);
+            this.txt_papellido.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_papellido.MaxLength = 50;
+            this.txt_papellido.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_papellido.Multiline = false;
+            this.txt_papellido.Name = "txt_papellido";
+            this.txt_papellido.Size = new System.Drawing.Size(220, 50);
+            this.txt_papellido.TabIndex = 2;
+            this.txt_papellido.Text = "";
+            this.txt_papellido.TrailingIcon = null;
             // 
-            // txt_segundonombre
+            // txt_snombre
             // 
-            this.txt_segundonombre.AnimateReadOnly = false;
-            this.txt_segundonombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_segundonombre.Depth = 0;
-            this.txt_segundonombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txt_segundonombre.Hint = "Segundo Nombre";
-            this.txt_segundonombre.LeadingIcon = null;
-            this.txt_segundonombre.Location = new System.Drawing.Point(897, 59);
-            this.txt_segundonombre.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_segundonombre.MaxLength = 50;
-            this.txt_segundonombre.MouseState = MaterialSkin.MouseState.OUT;
-            this.txt_segundonombre.Multiline = false;
-            this.txt_segundonombre.Name = "txt_segundonombre";
-            this.txt_segundonombre.Size = new System.Drawing.Size(220, 50);
-            this.txt_segundonombre.TabIndex = 3;
-            this.txt_segundonombre.Text = "";
-            this.txt_segundonombre.TrailingIcon = null;
+            this.txt_snombre.AnimateReadOnly = false;
+            this.txt_snombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_snombre.Depth = 0;
+            this.txt_snombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_snombre.Hint = "Segundo Nombre";
+            this.txt_snombre.LeadingIcon = null;
+            this.txt_snombre.Location = new System.Drawing.Point(240, 130);
+            this.txt_snombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_snombre.MaxLength = 50;
+            this.txt_snombre.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_snombre.Multiline = false;
+            this.txt_snombre.Name = "txt_snombre";
+            this.txt_snombre.Size = new System.Drawing.Size(220, 50);
+            this.txt_snombre.TabIndex = 3;
+            this.txt_snombre.Text = "";
+            this.txt_snombre.TrailingIcon = null;
             // 
-            // txt_primerapellido
+            // txt_pnombre
             // 
-            this.txt_primerapellido.AnimateReadOnly = false;
-            this.txt_primerapellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_primerapellido.Depth = 0;
-            this.txt_primerapellido.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txt_primerapellido.Hint = "Primer Apellido";
-            this.txt_primerapellido.LeadingIcon = null;
-            this.txt_primerapellido.Location = new System.Drawing.Point(429, 124);
-            this.txt_primerapellido.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_primerapellido.MaxLength = 50;
-            this.txt_primerapellido.MouseState = MaterialSkin.MouseState.OUT;
-            this.txt_primerapellido.Multiline = false;
-            this.txt_primerapellido.Name = "txt_primerapellido";
-            this.txt_primerapellido.Size = new System.Drawing.Size(220, 50);
-            this.txt_primerapellido.TabIndex = 4;
-            this.txt_primerapellido.Text = "";
-            this.txt_primerapellido.TrailingIcon = null;
+            this.txt_pnombre.AnimateReadOnly = false;
+            this.txt_pnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_pnombre.Depth = 0;
+            this.txt_pnombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_pnombre.Hint = "Primer Nombre";
+            this.txt_pnombre.LeadingIcon = null;
+            this.txt_pnombre.Location = new System.Drawing.Point(481, 63);
+            this.txt_pnombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_pnombre.MaxLength = 50;
+            this.txt_pnombre.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_pnombre.Multiline = false;
+            this.txt_pnombre.Name = "txt_pnombre";
+            this.txt_pnombre.Size = new System.Drawing.Size(220, 50);
+            this.txt_pnombre.TabIndex = 4;
+            this.txt_pnombre.Text = "";
+            this.txt_pnombre.TrailingIcon = null;
             // 
-            // txt_identificacion
+            // txt_id
             // 
-            this.txt_identificacion.AnimateReadOnly = false;
-            this.txt_identificacion.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txt_identificacion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_identificacion.Depth = 0;
-            this.txt_identificacion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txt_identificacion.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txt_identificacion.Hint = "Identificación";
-            this.txt_identificacion.LeadingIcon = null;
-            this.txt_identificacion.Location = new System.Drawing.Point(429, 59);
-            this.txt_identificacion.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_identificacion.MaxLength = 50;
-            this.txt_identificacion.MouseState = MaterialSkin.MouseState.OUT;
-            this.txt_identificacion.Multiline = false;
-            this.txt_identificacion.Name = "txt_identificacion";
-            this.txt_identificacion.Size = new System.Drawing.Size(220, 50);
-            this.txt_identificacion.TabIndex = 6;
-            this.txt_identificacion.Text = "";
-            this.txt_identificacion.TrailingIcon = null;
+            this.txt_id.AnimateReadOnly = false;
+            this.txt_id.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_id.Depth = 0;
+            this.txt_id.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_id.Hint = "Identificación";
+            this.txt_id.LeadingIcon = null;
+            this.txt_id.Location = new System.Drawing.Point(240, 63);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_id.MaxLength = 50;
+            this.txt_id.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_id.Multiline = false;
+            this.txt_id.Name = "txt_id";
+            this.txt_id.Size = new System.Drawing.Size(220, 50);
+            this.txt_id.TabIndex = 6;
+            this.txt_id.Text = "";
+            this.txt_id.TrailingIcon = null;
             // 
-            // txt_segundoapellido
+            // txt_sapellido
             // 
-            this.txt_segundoapellido.AnimateReadOnly = false;
-            this.txt_segundoapellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_segundoapellido.Depth = 0;
-            this.txt_segundoapellido.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txt_segundoapellido.Hint = "Segundo Apellido";
-            this.txt_segundoapellido.LeadingIcon = null;
-            this.txt_segundoapellido.Location = new System.Drawing.Point(662, 124);
-            this.txt_segundoapellido.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_segundoapellido.MaxLength = 50;
-            this.txt_segundoapellido.MouseState = MaterialSkin.MouseState.OUT;
-            this.txt_segundoapellido.Multiline = false;
-            this.txt_segundoapellido.Name = "txt_segundoapellido";
-            this.txt_segundoapellido.Size = new System.Drawing.Size(220, 50);
-            this.txt_segundoapellido.TabIndex = 7;
-            this.txt_segundoapellido.Text = "";
-            this.txt_segundoapellido.TrailingIcon = null;
+            this.txt_sapellido.AnimateReadOnly = false;
+            this.txt_sapellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_sapellido.Depth = 0;
+            this.txt_sapellido.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_sapellido.Hint = "Segundo Apellido";
+            this.txt_sapellido.LeadingIcon = null;
+            this.txt_sapellido.Location = new System.Drawing.Point(240, 195);
+            this.txt_sapellido.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_sapellido.MaxLength = 50;
+            this.txt_sapellido.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_sapellido.Multiline = false;
+            this.txt_sapellido.Name = "txt_sapellido";
+            this.txt_sapellido.Size = new System.Drawing.Size(220, 50);
+            this.txt_sapellido.TabIndex = 7;
+            this.txt_sapellido.Text = "";
+            this.txt_sapellido.TrailingIcon = null;
             // 
             // txt_contacto
             // 
@@ -164,7 +174,7 @@
             this.txt_contacto.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_contacto.Hint = "Contacto";
             this.txt_contacto.LeadingIcon = null;
-            this.txt_contacto.Location = new System.Drawing.Point(897, 124);
+            this.txt_contacto.Location = new System.Drawing.Point(481, 195);
             this.txt_contacto.Margin = new System.Windows.Forms.Padding(2);
             this.txt_contacto.MaxLength = 50;
             this.txt_contacto.MouseState = MaterialSkin.MouseState.OUT;
@@ -183,44 +193,44 @@
             this.txt_correo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_correo.Hint = "Correo";
             this.txt_correo.LeadingIcon = null;
-            this.txt_correo.Location = new System.Drawing.Point(429, 192);
+            this.txt_correo.Location = new System.Drawing.Point(33, 263);
             this.txt_correo.Margin = new System.Windows.Forms.Padding(2);
             this.txt_correo.MaxLength = 50;
             this.txt_correo.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_correo.Multiline = false;
             this.txt_correo.Name = "txt_correo";
-            this.txt_correo.Size = new System.Drawing.Size(453, 50);
+            this.txt_correo.Size = new System.Drawing.Size(427, 50);
             this.txt_correo.TabIndex = 9;
             this.txt_correo.Text = "";
             this.txt_correo.TrailingIcon = null;
-            this.txt_correo.TextChanged += new System.EventHandler(this.materialTextBox7_TextChanged);
             // 
-            // txt_sexo
+            // cbx_sexo
             // 
-            this.txt_sexo.AutoResize = false;
-            this.txt_sexo.BackColor = System.Drawing.Color.Gray;
-            this.txt_sexo.DataSource = this.tblsexoBindingSource;
-            this.txt_sexo.Depth = 0;
-            this.txt_sexo.DisplayMember = "Nombre";
-            this.txt_sexo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.txt_sexo.DropDownHeight = 174;
-            this.txt_sexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.txt_sexo.DropDownWidth = 121;
-            this.txt_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.txt_sexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_sexo.FormattingEnabled = true;
-            this.txt_sexo.IntegralHeight = false;
-            this.txt_sexo.ItemHeight = 43;
-            this.txt_sexo.Location = new System.Drawing.Point(897, 190);
-            this.txt_sexo.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_sexo.MaxDropDownItems = 4;
-            this.txt_sexo.MouseState = MaterialSkin.MouseState.OUT;
-            this.txt_sexo.Name = "txt_sexo";
-            this.txt_sexo.Size = new System.Drawing.Size(220, 49);
-            this.txt_sexo.StartIndex = 0;
-            this.txt_sexo.TabIndex = 10;
-            this.txt_sexo.ValueMember = "Nomenclatura";
-            this.txt_sexo.SelectedIndexChanged += new System.EventHandler(this.txt_sexo_SelectedIndexChanged);
+            this.cbx_sexo.AutoResize = false;
+            this.cbx_sexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cbx_sexo.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.tblsexoBindingSource, "Nombre", true));
+            this.cbx_sexo.DataSource = this.tblsexoBindingSource1;
+            this.cbx_sexo.Depth = 0;
+            this.cbx_sexo.DisplayMember = "Nombre";
+            this.cbx_sexo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.cbx_sexo.DropDownHeight = 174;
+            this.cbx_sexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbx_sexo.DropDownWidth = 121;
+            this.cbx_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.cbx_sexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cbx_sexo.FormattingEnabled = true;
+            this.cbx_sexo.Hint = "Sexo";
+            this.cbx_sexo.IntegralHeight = false;
+            this.cbx_sexo.ItemHeight = 43;
+            this.cbx_sexo.Location = new System.Drawing.Point(481, 264);
+            this.cbx_sexo.Margin = new System.Windows.Forms.Padding(2);
+            this.cbx_sexo.MaxDropDownItems = 4;
+            this.cbx_sexo.MouseState = MaterialSkin.MouseState.OUT;
+            this.cbx_sexo.Name = "cbx_sexo";
+            this.cbx_sexo.Size = new System.Drawing.Size(220, 49);
+            this.cbx_sexo.StartIndex = 0;
+            this.cbx_sexo.TabIndex = 10;
+            this.cbx_sexo.ValueMember = "PKId";
             // 
             // tblsexoBindingSource
             // 
@@ -232,6 +242,16 @@
             this.dbs_prestamos_deportivosDataSet.DataSetName = "dbs_prestamos_deportivosDataSet";
             this.dbs_prestamos_deportivosDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // tblsexoBindingSource1
+            // 
+            this.tblsexoBindingSource1.DataMember = "tbl_sexo";
+            this.tblsexoBindingSource1.DataSource = this.dbs_prestamos_deportivosDataSet1;
+            // 
+            // dbs_prestamos_deportivosDataSet1
+            // 
+            this.dbs_prestamos_deportivosDataSet1.DataSetName = "dbs_prestamos_deportivosDataSet1";
+            this.dbs_prestamos_deportivosDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // txt_direccion
             // 
             this.txt_direccion.AnimateReadOnly = false;
@@ -240,128 +260,127 @@
             this.txt_direccion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_direccion.Hint = "Dirección";
             this.txt_direccion.LeadingIcon = null;
-            this.txt_direccion.Location = new System.Drawing.Point(429, 256);
+            this.txt_direccion.Location = new System.Drawing.Point(33, 332);
             this.txt_direccion.Margin = new System.Windows.Forms.Padding(2);
             this.txt_direccion.MaxLength = 50;
             this.txt_direccion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_direccion.Multiline = false;
             this.txt_direccion.Name = "txt_direccion";
-            this.txt_direccion.Size = new System.Drawing.Size(688, 50);
+            this.txt_direccion.Size = new System.Drawing.Size(668, 50);
             this.txt_direccion.TabIndex = 11;
             this.txt_direccion.Text = "";
             this.txt_direccion.TrailingIcon = null;
-            this.txt_direccion.TextChanged += new System.EventHandler(this.materialTextBox8_TextChanged);
             // 
             // tbl_sexoTableAdapter
             // 
             this.tbl_sexoTableAdapter.ClearBeforeFill = true;
             // 
-            // materialButton1
+            // btn_actualizar
             // 
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(570, 323);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(109, 36);
-            this.materialButton1.TabIndex = 12;
-            this.materialButton1.Text = "Actualizar";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
+            this.btn_actualizar.AutoSize = false;
+            this.btn_actualizar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_actualizar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_actualizar.Depth = 0;
+            this.btn_actualizar.HighEmphasis = true;
+            this.btn_actualizar.Icon = null;
+            this.btn_actualizar.Location = new System.Drawing.Point(339, 399);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_actualizar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_actualizar.Size = new System.Drawing.Size(109, 36);
+            this.btn_actualizar.TabIndex = 12;
+            this.btn_actualizar.Text = "Actualizar";
+            this.btn_actualizar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_actualizar.UseAccentColor = false;
+            this.btn_actualizar.UseVisualStyleBackColor = true;
             // 
-            // materialButton2
+            // btn_guardar
             // 
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(730, 323);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton2.Size = new System.Drawing.Size(88, 36);
-            this.materialButton2.TabIndex = 13;
-            this.materialButton2.Text = "Guardar";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton2.UseAccentColor = false;
-            this.materialButton2.UseVisualStyleBackColor = true;
-            this.materialButton2.Click += new System.EventHandler(this.materialButton2_Click);
+            this.btn_guardar.AutoSize = false;
+            this.btn_guardar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_guardar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_guardar.Depth = 0;
+            this.btn_guardar.HighEmphasis = true;
+            this.btn_guardar.Icon = null;
+            this.btn_guardar.Location = new System.Drawing.Point(468, 399);
+            this.btn_guardar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_guardar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_guardar.Size = new System.Drawing.Size(109, 36);
+            this.btn_guardar.TabIndex = 13;
+            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_guardar.UseAccentColor = false;
+            this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
-            // materialButton3
+            // btn_cancelar
             // 
-            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton3.Depth = 0;
-            this.materialButton3.HighEmphasis = true;
-            this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(863, 323);
-            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton3.Name = "materialButton3";
-            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton3.Size = new System.Drawing.Size(96, 36);
-            this.materialButton3.TabIndex = 14;
-            this.materialButton3.Text = "Cancelar";
-            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton3.UseAccentColor = false;
-            this.materialButton3.UseVisualStyleBackColor = true;
+            this.btn_cancelar.AutoSize = false;
+            this.btn_cancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_cancelar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_cancelar.Depth = 0;
+            this.btn_cancelar.HighEmphasis = true;
+            this.btn_cancelar.Icon = null;
+            this.btn_cancelar.Location = new System.Drawing.Point(592, 399);
+            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_cancelar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_cancelar.Size = new System.Drawing.Size(109, 36);
+            this.btn_cancelar.TabIndex = 14;
+            this.btn_cancelar.Text = "Cancelar";
+            this.btn_cancelar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_cancelar.UseAccentColor = false;
+            this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.materialButton3_Click);
             // 
-            // materialListView1
+            // pictureBox1
             // 
-            this.materialListView1.AutoSizeTable = false;
-            this.materialListView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialListView1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("materialListView1.BackgroundImage")));
-            this.materialListView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialListView1.Depth = 0;
-            this.materialListView1.FullRowSelect = true;
-            this.materialListView1.HideSelection = false;
-            this.materialListView1.Location = new System.Drawing.Point(64, 7);
-            this.materialListView1.MinimumSize = new System.Drawing.Size(200, 100);
-            this.materialListView1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialListView1.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialListView1.Name = "materialListView1";
-            this.materialListView1.OwnerDraw = true;
-            this.materialListView1.Size = new System.Drawing.Size(306, 372);
-            this.materialListView1.TabIndex = 15;
-            this.materialListView1.UseCompatibleStateImageBehavior = false;
-            this.materialListView1.View = System.Windows.Forms.View.Details;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(33, 63);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(192, 182);
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
+            // tbl_sexoTableAdapter1
+            // 
+            this.tbl_sexoTableAdapter1.ClearBeforeFill = true;
             // 
             // frm_modulo_usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1138, 391);
-            this.Controls.Add(this.materialListView1);
-            this.Controls.Add(this.materialButton3);
-            this.Controls.Add(this.materialButton2);
-            this.Controls.Add(this.materialButton1);
+            this.ClientSize = new System.Drawing.Size(753, 450);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btn_cancelar);
+            this.Controls.Add(this.btn_guardar);
+            this.Controls.Add(this.btn_actualizar);
             this.Controls.Add(this.txt_direccion);
-            this.Controls.Add(this.txt_sexo);
+            this.Controls.Add(this.cbx_sexo);
             this.Controls.Add(this.txt_correo);
             this.Controls.Add(this.txt_contacto);
-            this.Controls.Add(this.txt_segundoapellido);
-            this.Controls.Add(this.txt_identificacion);
-            this.Controls.Add(this.txt_primerapellido);
-            this.Controls.Add(this.txt_segundonombre);
-            this.Controls.Add(this.txt_primernombre);
+            this.Controls.Add(this.txt_sapellido);
+            this.Controls.Add(this.txt_id);
+            this.Controls.Add(this.txt_pnombre);
+            this.Controls.Add(this.txt_snombre);
+            this.Controls.Add(this.txt_papellido);
             this.Controls.Add(this.materialLabel1);
-            this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_modulo_usuarios";
             this.Text = "Form1";
-            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Load += new System.EventHandler(this.frm_modulo_usuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -370,22 +389,25 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialTextBox txt_primernombre;
-        private MaterialSkin.Controls.MaterialTextBox txt_segundonombre;
-        private MaterialSkin.Controls.MaterialTextBox txt_primerapellido;
-        private MaterialSkin.Controls.MaterialTextBox txt_identificacion;
-        private MaterialSkin.Controls.MaterialTextBox txt_segundoapellido;
+        private MaterialSkin.Controls.MaterialTextBox txt_papellido;
+        private MaterialSkin.Controls.MaterialTextBox txt_snombre;
+        private MaterialSkin.Controls.MaterialTextBox txt_pnombre;
+        private MaterialSkin.Controls.MaterialTextBox txt_id;
+        private MaterialSkin.Controls.MaterialTextBox txt_sapellido;
         private MaterialSkin.Controls.MaterialTextBox txt_contacto;
         private MaterialSkin.Controls.MaterialTextBox txt_correo;
-        private MaterialSkin.Controls.MaterialComboBox txt_sexo;
+        private MaterialSkin.Controls.MaterialComboBox cbx_sexo;
         private MaterialSkin.Controls.MaterialTextBox txt_direccion;
         private dbs_prestamos_deportivosDataSet dbs_prestamos_deportivosDataSet;
         private System.Windows.Forms.BindingSource tblsexoBindingSource;
         private dbs_prestamos_deportivosDataSetTableAdapters.tbl_sexoTableAdapter tbl_sexoTableAdapter;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
-        private MaterialSkin.Controls.MaterialButton materialButton2;
-        private MaterialSkin.Controls.MaterialButton materialButton3;
-        private MaterialSkin.Controls.MaterialListView materialListView1;
+        private MaterialSkin.Controls.MaterialButton btn_actualizar;
+        private MaterialSkin.Controls.MaterialButton btn_guardar;
+        private MaterialSkin.Controls.MaterialButton btn_cancelar;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private dbs_prestamos_deportivosDataSet1 dbs_prestamos_deportivosDataSet1;
+        private System.Windows.Forms.BindingSource tblsexoBindingSource1;
+        private dbs_prestamos_deportivosDataSet1TableAdapters.tbl_sexoTableAdapter tbl_sexoTableAdapter1;
     }
 }
 
