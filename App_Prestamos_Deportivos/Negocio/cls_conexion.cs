@@ -9,7 +9,7 @@ namespace Negocio
 {
     internal class cls_conexion
     {
-        public SqlConnection connection = new SqlConnection("Data Source=DESKTOP-6MUA0BA;Initial Catalog=dbs_prestamos_deportivos;Integrated Security=True");
+        public SqlConnection connection = new SqlConnection("Data Source=DESKTOP-6MU0BAA;Initial Catalog=dbs_prestamos_deportivosnew;Integrated Security=True");
     }
 }
 

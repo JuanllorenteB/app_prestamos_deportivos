@@ -102,7 +102,7 @@
             this.btn_prestamo.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_prestamo.Name = "btn_prestamo";
             this.btn_prestamo.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btn_prestamo.Size = new System.Drawing.Size(81, 27);
+            this.btn_prestamo.Size = new System.Drawing.Size(75, 35);
             this.btn_prestamo.TabIndex = 7;
             this.btn_prestamo.Text = "Prestar";
             this.btn_prestamo.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -126,7 +126,7 @@
             this.btn_agregar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_agregar.Name = "btn_agregar";
             this.btn_agregar.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btn_agregar.Size = new System.Drawing.Size(49, 27);
+            this.btn_agregar.Size = new System.Drawing.Size(43, 35);
             this.btn_agregar.TabIndex = 8;
             this.btn_agregar.Text = "+";
             this.btn_agregar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -150,7 +150,7 @@
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
             this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(92, 27);
+            this.materialButton1.Size = new System.Drawing.Size(86, 35);
             this.materialButton1.TabIndex = 9;
             this.materialButton1.Text = "Cancelar";
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -317,21 +317,20 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
-            this.materialLabel1.Location = new System.Drawing.Point(293, 23);
+            this.materialLabel1.Location = new System.Drawing.Point(222, 22);
             this.materialLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(323, 41);
+            this.materialLabel1.Size = new System.Drawing.Size(167, 41);
             this.materialLabel1.TabIndex = 18;
-            this.materialLabel1.Text = "Realizados Prestamo";
-            this.materialLabel1.Click += new System.EventHandler(this.materialLabel1_Click);
+            this.materialLabel1.Text = "Prestamos";
             // 
             // frm_prestamo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(765, 522);
+            this.ClientSize = new System.Drawing.Size(759, 530);
             this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.txt_cantidad_prestamo);
             this.Controls.Add(this.txt_existencia);

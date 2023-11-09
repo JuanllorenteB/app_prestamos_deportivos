@@ -22,6 +22,8 @@ namespace Presentacion
 
         private void frm_modulo_usuarios_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'dbs_prestamos_deportivosnewDataSet.tbl_sexo' Puede moverla o quitarla según sea necesario.
+            this.tbl_sexoTableAdapter2.Fill(this.dbs_prestamos_deportivosnewDataSet.tbl_sexo);
             // TODO: esta línea de código carga datos en la tabla 'dbs_prestamos_deportivosDataSet1.tbl_sexo' Puede moverla o quitarla según sea necesario.
             this.tbl_sexoTableAdapter1.Fill(this.dbs_prestamos_deportivosDataSet1.tbl_sexo);
             // TODO: esta línea de código carga datos en la tabla 'dbs_prestamos_deportivosDataSet.tbl_sexo' Puede moverla o quitarla según sea necesario.

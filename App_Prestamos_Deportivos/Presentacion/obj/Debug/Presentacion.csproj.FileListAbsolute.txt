@@ -18,16 +18,23 @@ C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Pr
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.pdb
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_implementos.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_estado.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_login.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_roles.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_sexo.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_usuarios.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_prestamo.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.exe
-C:\Users\AP-SE105-01\Pictures\Saved Pictures\Actividad final de dulfran\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\MaterialSkin.dll
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_implementos.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_estado.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_login.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_roles.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_sexo.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_usuarios.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_prestamo.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Juan Carlos\Pictures\Github\app_prestamos_deportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.pdb

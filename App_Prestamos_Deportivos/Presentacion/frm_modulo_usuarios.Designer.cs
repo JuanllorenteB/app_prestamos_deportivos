@@ -41,6 +41,8 @@
             this.cbx_sexo = new MaterialSkin.Controls.MaterialComboBox();
             this.tblsexoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dbs_prestamos_deportivosDataSet = new Presentacion.dbs_prestamos_deportivosDataSet();
+            this.tblsexoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.dbs_prestamos_deportivosnewDataSet = new Presentacion.dbs_prestamos_deportivosnewDataSet();
             this.tblsexoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.dbs_prestamos_deportivosDataSet1 = new Presentacion.dbs_prestamos_deportivosDataSet1();
             this.txt_direccion = new MaterialSkin.Controls.MaterialTextBox();
@@ -50,8 +52,11 @@
             this.btn_cancelar = new MaterialSkin.Controls.MaterialButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tbl_sexoTableAdapter1 = new Presentacion.dbs_prestamos_deportivosDataSet1TableAdapters.tbl_sexoTableAdapter();
+            this.tbl_sexoTableAdapter2 = new Presentacion.dbs_prestamos_deportivosnewDataSetTableAdapters.tbl_sexoTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosnewDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -80,7 +85,7 @@
             this.txt_papellido.Hint = "Primer Apellido";
             this.txt_papellido.LeadingIcon = null;
             this.txt_papellido.Location = new System.Drawing.Point(481, 130);
-            this.txt_papellido.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_papellido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_papellido.MaxLength = 50;
             this.txt_papellido.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_papellido.Multiline = false;
@@ -99,7 +104,7 @@
             this.txt_snombre.Hint = "Segundo Nombre";
             this.txt_snombre.LeadingIcon = null;
             this.txt_snombre.Location = new System.Drawing.Point(240, 130);
-            this.txt_snombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_snombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_snombre.MaxLength = 50;
             this.txt_snombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_snombre.Multiline = false;
@@ -118,7 +123,7 @@
             this.txt_pnombre.Hint = "Primer Nombre";
             this.txt_pnombre.LeadingIcon = null;
             this.txt_pnombre.Location = new System.Drawing.Point(481, 63);
-            this.txt_pnombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_pnombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_pnombre.MaxLength = 50;
             this.txt_pnombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_pnombre.Multiline = false;
@@ -137,7 +142,7 @@
             this.txt_id.Hint = "Identificación";
             this.txt_id.LeadingIcon = null;
             this.txt_id.Location = new System.Drawing.Point(240, 63);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_id.MaxLength = 50;
             this.txt_id.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_id.Multiline = false;
@@ -156,7 +161,7 @@
             this.txt_sapellido.Hint = "Segundo Apellido";
             this.txt_sapellido.LeadingIcon = null;
             this.txt_sapellido.Location = new System.Drawing.Point(240, 195);
-            this.txt_sapellido.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_sapellido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_sapellido.MaxLength = 50;
             this.txt_sapellido.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_sapellido.Multiline = false;
@@ -175,7 +180,7 @@
             this.txt_contacto.Hint = "Contacto";
             this.txt_contacto.LeadingIcon = null;
             this.txt_contacto.Location = new System.Drawing.Point(481, 195);
-            this.txt_contacto.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_contacto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_contacto.MaxLength = 50;
             this.txt_contacto.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_contacto.Multiline = false;
@@ -194,7 +199,7 @@
             this.txt_correo.Hint = "Correo";
             this.txt_correo.LeadingIcon = null;
             this.txt_correo.Location = new System.Drawing.Point(33, 263);
-            this.txt_correo.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_correo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_correo.MaxLength = 50;
             this.txt_correo.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_correo.Multiline = false;
@@ -208,8 +213,8 @@
             // 
             this.cbx_sexo.AutoResize = false;
             this.cbx_sexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.cbx_sexo.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.tblsexoBindingSource, "Nombre", true));
-            this.cbx_sexo.DataSource = this.tblsexoBindingSource1;
+            this.cbx_sexo.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.tblsexoBindingSource, "PKId", true));
+            this.cbx_sexo.DataSource = this.tblsexoBindingSource2;
             this.cbx_sexo.Depth = 0;
             this.cbx_sexo.DisplayMember = "Nombre";
             this.cbx_sexo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
@@ -223,7 +228,7 @@
             this.cbx_sexo.IntegralHeight = false;
             this.cbx_sexo.ItemHeight = 43;
             this.cbx_sexo.Location = new System.Drawing.Point(481, 264);
-            this.cbx_sexo.Margin = new System.Windows.Forms.Padding(2);
+            this.cbx_sexo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbx_sexo.MaxDropDownItems = 4;
             this.cbx_sexo.MouseState = MaterialSkin.MouseState.OUT;
             this.cbx_sexo.Name = "cbx_sexo";
@@ -241,6 +246,16 @@
             // 
             this.dbs_prestamos_deportivosDataSet.DataSetName = "dbs_prestamos_deportivosDataSet";
             this.dbs_prestamos_deportivosDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblsexoBindingSource2
+            // 
+            this.tblsexoBindingSource2.DataMember = "tbl_sexo";
+            this.tblsexoBindingSource2.DataSource = this.dbs_prestamos_deportivosnewDataSet;
+            // 
+            // dbs_prestamos_deportivosnewDataSet
+            // 
+            this.dbs_prestamos_deportivosnewDataSet.DataSetName = "dbs_prestamos_deportivosnewDataSet";
+            this.dbs_prestamos_deportivosnewDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tblsexoBindingSource1
             // 
@@ -261,7 +276,7 @@
             this.txt_direccion.Hint = "Dirección";
             this.txt_direccion.LeadingIcon = null;
             this.txt_direccion.Location = new System.Drawing.Point(33, 332);
-            this.txt_direccion.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_direccion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_direccion.MaxLength = 50;
             this.txt_direccion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_direccion.Multiline = false;
@@ -353,6 +368,10 @@
             // 
             this.tbl_sexoTableAdapter1.ClearBeforeFill = true;
             // 
+            // tbl_sexoTableAdapter2
+            // 
+            this.tbl_sexoTableAdapter2.ClearBeforeFill = true;
+            // 
             // frm_modulo_usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -372,12 +391,14 @@
             this.Controls.Add(this.txt_snombre);
             this.Controls.Add(this.txt_papellido);
             this.Controls.Add(this.materialLabel1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frm_modulo_usuarios";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frm_modulo_usuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosnewDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -408,6 +429,9 @@
         private dbs_prestamos_deportivosDataSet1 dbs_prestamos_deportivosDataSet1;
         private System.Windows.Forms.BindingSource tblsexoBindingSource1;
         private dbs_prestamos_deportivosDataSet1TableAdapters.tbl_sexoTableAdapter tbl_sexoTableAdapter1;
+        private dbs_prestamos_deportivosnewDataSet dbs_prestamos_deportivosnewDataSet;
+        private System.Windows.Forms.BindingSource tblsexoBindingSource2;
+        private dbs_prestamos_deportivosnewDataSetTableAdapters.tbl_sexoTableAdapter tbl_sexoTableAdapter2;
     }
 }
 

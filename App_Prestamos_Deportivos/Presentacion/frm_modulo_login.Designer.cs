@@ -103,7 +103,7 @@
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(11, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(254, 251);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,7 +157,7 @@
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.txt_usuario);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frm_modulo_login";
             this.Text = "frm_modulo_login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

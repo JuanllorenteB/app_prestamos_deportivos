@@ -33,5 +33,16 @@ namespace Presentacion.Properties {
                 return ((string)(this["dbs_prestamos_deportivosConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-6MUA0BA;Initial Catalog=dbs_prestamos_deportivosnew;Integrate" +
+            "d Security=True")]
+        public string dbs_prestamos_deportivosnewConnectionString {
+            get {
+                return ((string)(this["dbs_prestamos_deportivosnewConnectionString"]));
+            }
+        }
     }
 }
